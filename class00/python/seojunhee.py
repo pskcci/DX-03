@@ -17,19 +17,19 @@ sen = [
 ]
 
 score=0
-for total in range(5):
+for i in range(5):
     word_list = random.choice(sen)
     shuffle = random.sample(word_list,k=len(word_list))
-    print("문제: ",shuffle)
+    print(f"문제 {i+1} : ", shuffle)
 
-    user_input = input("올바른 문장으로 만드시오\n").strip("")
+    user_input = input("올바른 문장으로 만드시오\n")
     word = ' '.join(word_list)
 
     if user_input == word:
         score+=1
-        print("정답입니다.\n")
+        print("정답입니다!\n")
     else:
         print("틀렸습니다!\n")
 
-print(f"{total+1} 문제 중 {score}개 맞았습니다!")
+print(f"{i+1} 문제 중 {score}개 맞았습니다!")
     
