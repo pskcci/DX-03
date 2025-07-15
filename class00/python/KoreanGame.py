@@ -38,7 +38,7 @@ for i in range(5):
     koreanList.remove(chooseList)
     rightAnswer = chooseList[0] + " " + chooseList[1] + " " + chooseList[2]
     r.shuffle(chooseList)
-    print(f"quiz : {chooseList[0]}, {chooseList[1]}, {chooseList[2]} , {rightAnswer}") 
+    print(f"quiz : {chooseList[0]}, {chooseList[1]}, {chooseList[2]}") 
     inputAnswer = input("정답을 입력하세요.")
 
     if checkAnswer(rightAnswer, inputAnswer):
