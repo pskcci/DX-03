@@ -3,7 +3,7 @@ import random
 
 # 초기화
 pygame.init()
-screen = pygame.display.set_mode((800, 600))
+screen = pygame.display.set_mode((1200, 600))
 pygame.display.set_caption("Typing Game!")
 FONT = pygame.font.SysFont("malgun gothic", 48)
 INPUT_FONT = pygame.font.SysFont("malgun gothic", 36)
@@ -12,9 +12,12 @@ pygame.time.set_timer(TIMER, 2000)
 clock = pygame.time.Clock()
 
 # 단어 리스트
-# To Do List:
-# 영어 단어들로만 구성된 List 생성
-WORDS = []
+WORDS = ["variable", "function", "parameter", "argument", "loop",
+    "condition", "boolean", "string", "integer", "float",
+    "list", "tuple", "dictionary", "set", "index",
+    "append", "pop", "slice", "break", "continue",
+    "class", "object", "inheritance", "method", "module",
+    "import", "exception", "try", "lambda", "return"]
     
 # 게임 상태 변수
 user_input = ""
@@ -23,42 +26,38 @@ lives = 3
 falling_words = []
 
 def get_random_word():
-    # To Do List:
-    # 랜덤 단어를 반환하는 함수
-    # 이 함수는 단어 리스트에서 무작위로 단어를 선택하여 반환합니다.
+    return random.choice(WORDS)
 
 def add_falling_word():
-    # To Do List:
-    # 떨어지는 단어를 추가하는 함수
-    # 이 함수는 get_random_word() 함수를 호출하여 단어를 가져오고,
-    # 해당 단어의 위치와 속도를 설정하여 falling_words 리스트에 추가합니다.
-    # word =  # 랜덤 단어
-    # x =     # 랜덤 x 좌표 (50에서 700 사이)
-    # y =     # 랜덤 y 좌표 (시작 위치는 화면 상단)
-    # speed = # 랜덤 속도 (2에서 5 사이)
-    # falling_words # 리스트에 추가 (word, x, y, speed)
+
+    word = get_random_word()
+    x = random.randint(50,700)
+    y = 0
+    speed = random.randint(4,5)
+    falling_words.append({"word": word, "x":x, "y":y, "speed": speed})
 
 def update_words():
-    # To Do List:
-    # 떨어지는 단어들의 위치를 업데이트하는 함수
-    # 이 함수는 falling_words 리스트의 각 단어에 대해 y 좌표를 speed만큼 증가시킵니다.
+    for item in falling_words:
+        item["y"] += item["speed"]
 
 def check_input():
-    # To Do List:
-    # 사용자가 입력한 단어가 떨어지는 단어와 일치하는지 확인하는 함수
-    # 이 함수는 falling_words 리스트를 순회하며 user_input과 일치하는 단어를 찾습니다.
-    # 일치하는 단어가 있으면 
-    #         - 해당 단어를 falling_words에서 제거하고,
-    #         - 점수를 10점 증가시키고 user_input을 초기화합니다.
-    # 일치하는 단어가 없으면 
-    #         - user_input을 초기화합니다.
-    # 반환은 True 또는 False로, 일치하는 단어가 있었는지 여부를 나타냅니다.
+    global score, user_input
+    
+    for word in falling_words:
+        if user_input == word["word"]:
+            falling_words.remove(word)
+            score += 10
+            user_input = ""
+            return True
+    return False
 
 def check_missed():
-    # To Do List:
-    # 떨어지는 단어가 화면 아래로 넘어갔는지 확인하는 함수
-    # 이 함수는 falling_words 리스트를 순회하며 y 좌표가 600을 초과하는 단어를 찾습니다.
-    # 해당 단어를 falling_words에서 제거하고 lives를 1 감소시킵니다.
+
+    global lives
+    for item in falling_words:
+        if item["y"] > 600:
+            falling_words.remove(item)
+            lives -= 1
 
 def draw_words():
     for word in falling_words:
