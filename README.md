@@ -73,9 +73,28 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### 제출현황
 
+
+### Team: VisionPulse — “몸의 움직임으로 세상을 반응시키다”
+
+사용자의 몸동작을 AI가 인식하여, 카메라 화면 상에 즉각적인 시각적 효과(빛, 파티클, 폭발 등)를 구현하는 Vision AI 인터랙션 프로젝트
+
+* Members
+  | Name | Role |
+  |----|----|
+  | 박상수 | 일정 관리, milestone, 발표 자료 총괄 |
+  | 조경원 | AI 도구 모델링, Python Code 작성 |
+  | 백다빈, 정경준, 김준현 | Gesture Data 수집 정리, Effect Searching, Effect 연출 구현 |
+  
+* Project Github : https://github.com/GeneralArang/AI_Project
+
+* 발표자료 : https://www.canva.com/design/DAG3iAsPTpg/zg14XLbA-RDOBjkyxyF_1Q/edit
+
+
+
 ### Team: 마이너 클래스
 * 프로젝트 설명: 이 프로젝트는 신경다양인(Neurodivergent individuals)이 면접 상황에서 겪는 비언어적 소통의 어려움을 해소하기 위한 AI 기반 실시간 피드백 훈련 도구입니다.
 * 최종 목표: Python을 주력으로 사용하여 웹캠을 통해 사용자의 면접 상황을 분석하고, 시선 회피, 몸 흔들기와 같은 특정 행동을 감지하여 실시간 텍스트 피드백을 제공하는 독립 실행형 GUI 애플리케이션을 구축합니다.
+
 
 * Members
   | Name | Role |
