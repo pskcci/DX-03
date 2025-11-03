@@ -73,16 +73,17 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### 제출현황
 
-### Team: 뭔가 센스있는 팀명
-<프로젝트 요약>
+### Team: VisionPulse — “몸의 움직임으로 세상을 반응시키다”
+
+사용자의 몸동작을 AI가 인식하여, 카메라 화면 상에 즉각적인 시각적 효과(빛, 파티클, 폭발 등)를 구현하는 Vision AI 인터랙션 프로젝트
+
 * Members
   | Name | Role |
   |----|----|
-  | 채치수 | Project lead, 프로젝트를 총괄하고 망하면 책임진다. |
-  | 송태섭 | Project manager, 마일스톤을 생성하고 프로젝트 이슈 진행상황을 관리한다. |
-  | 정대만 | UI design, 사용자 인터페이스를 정의하고 구현한다. |
-  | 채소연 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
-  | 권준호 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
-* Project Github : https://github.com/goodsense/project_awesome.git
-* 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
+  | 박상수 | 일정 관리, milestone, 발표 자료 총괄 |
+  | 조경원 | AI 도구 모델링, Python Code 작성 |
+  | 백다빈, 정경준, 김준현 | Gesture Data 수집 정리, Effect Searching, Effect 연출 구현 |
+  
+* Project Github : https://github.com/GeneralArang/AI_Project
 
+* 발표자료 : https://www.canva.com/design/DAG3iAsPTpg/zg14XLbA-RDOBjkyxyF_1Q/edit
