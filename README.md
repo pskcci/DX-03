@@ -73,16 +73,18 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### 제출현황
 
-### Team: 뭔가 센스있는 팀명
-<프로젝트 요약>
+### Team: 학습하다 버려짐 ㅠ
+쓰레기를 종류 및 오염도에따라 분석하고 그에 맞게 분리수거를 진행한다.
 * Members
   | Name | Role |
   |----|----|
-  | 채치수 | Project lead, 프로젝트를 총괄하고 망하면 책임진다. |
-  | 송태섭 | Project manager, 마일스톤을 생성하고 프로젝트 이슈 진행상황을 관리한다. |
-  | 정대만 | UI design, 사용자 인터페이스를 정의하고 구현한다. |
-  | 채소연 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
-  | 권준호 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
-* Project Github : https://github.com/goodsense/project_awesome.git
-* 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
+  | 변창섭 | Project lead, 전체 프로젝트 총괄 및 로봇 프로그래밍 구현 |
+  | 박우현 | AI modeling |
+  | 정민수 | Coding, PLC와 AI 모델 간의 데이터 연동 및 시스템 구현 |
+  | 박지훈 | 마일스톤을 생성하고 프로젝트 관리한다 |
+  | 하진영 | HMI 사용자 인터페이스를 구현한다 |
+  | 강부식 | PLC 연동 및 로봇 프로그래밍 구현 |
+  | 성승용 | PLC 서브모터 및 컨베이어 구동 작업 진행 |
+* Project Github : https://github.com/ByeonChangSeob/trash_T-T
+* 발표자료 : 추후 올리겠음
 
