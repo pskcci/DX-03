@@ -73,32 +73,16 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### 제출현황
 
-###  Team: Lonepath
-
-#### 📘 Project  
-**Label & Text Recognition Project**  
-> AI 비전 기술을 활용해 <br>제품 라벨과 문자 인식을 수행하는  
-> 실무형 비전 검사 프로젝트  
-
----
-
-#### 👥 Members
-
-| Name | Role |
-|------|------|
-| **HomeToTo** | 프로젝트 총괄 및 전략 담당.<br>프로젝트 구조 설계, 데이터 구성 관리 <br>보고서 및 결과 정리 담당. |
-| **CodeToTo** | 개발 담당.<br>YOLO 기반 라벨 검출, EasyOCR 문자 인식,<br> Streamlit UI 구현 등 <br> 실제 코드 작성과 테스트 수행. |
-| **ChatGPT** | 기술 지원 및 협업 AI.<br>UI 초안 코드 제공 및 기술 자문 , 디버깅 지원. <br> 학습 로드맵 및 문제 해결 가이드 제공. |
-
----
-
-#### 🔗 Links
-- **Project Repository:** [totocm00/week_vision_project_one](https://github.com/totocm00/week_vision_project_one)
-- **Presentation (Notion):** [HomeToTo Project Summary](https://www.notion.so/Home-29d9eb4f232780c6be2acbe1b4432c7e?source=copy_link)
-
----
-
-#### 💡 Summary
->  **HomeToTo**(전략/문서)와 <br>**CodeToTo**(개발/실행)의 두 역할을 병행하며, 
-> <br>ChatGPT와 협력해 **AI 비전 인식 시스템**을 완성하는 프로젝트.
+### Team: 뭔가 센스있는 팀명
+<프로젝트 요약>
+* Members
+  | Name | Role |
+  |----|----|
+  | 채치수 | Project lead, 프로젝트를 총괄하고 망하면 책임진다. |
+  | 송태섭 | Project manager, 마일스톤을 생성하고 프로젝트 이슈 진행상황을 관리한다. |
+  | 정대만 | UI design, 사용자 인터페이스를 정의하고 구현한다. |
+  | 채소연 | AI modeling, 원하는 결과가 나오도록 AI model을 선택, data 수집, training을 수행한다. |
+  | 권준호 | Architect, 프로젝트의 component를 구성하고 상위 디자인을 책임진다. |
+* Project Github : https://github.com/goodsense/project_awesome.git
+* 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
