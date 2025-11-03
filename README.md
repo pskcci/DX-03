@@ -108,3 +108,18 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : https://github.com/MinorClass/AI_Project.git
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
+
+### Team: 학습하다 버려짐 ㅠ
+쓰레기를 종류 및 오염도에따라 분석하고 그에 맞게 분리수거를 진행한다.
+* Members
+  | Name | Role |
+  |----|----|
+  | 변창섭 | Project lead, 전체 프로젝트 총괄 및 로봇 프로그래밍 구현 |
+  | 박우현 | AI modeling |
+  | 정민수 | Coding, PLC와 AI 모델 간의 데이터 연동 및 시스템 구현 |
+  | 박지훈 | 마일스톤을 생성하고 프로젝트 관리한다 |
+  | 하진영 | HMI 사용자 인터페이스를 구현한다 |
+  | 강부식 | PLC 연동 및 로봇 프로그래밍 구현 |
+  | 성승용 | PLC 서브모터 및 컨베이어 구동 작업 진행 |
+* Project Github : https://github.com/ByeonChangSeob/trash_T-T
+* 발표자료 : 추후 올리겠음
