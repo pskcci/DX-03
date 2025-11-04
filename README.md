@@ -83,6 +83,6 @@ AI 비전 기술을 활용해 제품 라벨과 문자 인식을 수행하는  �
   |  | 개발 담당.<br>YOLO 기반 라벨 검출, EasyOCR 문자 인식,<br> Streamlit UI 구현 등 <br> 실제 코드 작성과 테스트 수행. |
   
 
-* Project Github : https://github.com/totocm00/week_vision_project_one
+* Project Github : https://github.com/totocm00/week_vision_project_one.git
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
