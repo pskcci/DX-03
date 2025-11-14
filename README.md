@@ -123,3 +123,16 @@ $ find ./ -iname *.bin|xargs ls -l
   | 성승용 | PLC 서브모터 및 컨베이어 구동 작업 진행 |
 * Project Github : https://github.com/ByeonChangSeob/trash_T-T
 * 발표자료 : 추후 올리겠음
+
+
+### Team: Lonepath
+<프로젝트 요약>  
+AI 비전 기술을 활용해 제품 라벨과 문자 인식을 수행하는  실무형 비전 검사 프로젝트
+* Members
+  | Name | Role |
+  |----|----|
+  |  양원명 | 프로젝트 총괄 및 전략 담당.<br>프로젝트 구조 설계, 데이터 구성 관리 <br>보고서 및 결과 정리 담당. |
+  |  | 개발 담당.<br>YOLO 기반 라벨 검출, EasyOCR 문자 인식,<br> Streamlit UI 구현 등 <br> 실제 코드 작성과 테스트 수행. |
+  
+* Project Github : https://github.com/totocm00/week_vision_project_one.git
+* 발표자료 : https://github.com/totocm00/open_vision_factory.git
